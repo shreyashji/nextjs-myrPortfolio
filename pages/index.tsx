@@ -3,7 +3,7 @@ import{ services } from '../data'
 import {motion} from "framer-motion"
 import {fadeInUp, routeAnimation, stagger} from "../animations"
 import { GetServerSideProps, GetServerSidePropsContext } from "next"
-
+import Head from "next/head"
 const index = ({endpoint}) => {
   console.log(endpoint);
   return (
@@ -13,6 +13,11 @@ const index = ({endpoint}) => {
     animate="animate"
     exit="exit"
     >
+      <Head>
+        <title>
+          Shreyash Choudhary |  Software Engineer | Software Devloper
+        </title>
+      </Head>
     <h5 className="my-3 font-medium">I am currently having 1+ year of experience in the field of Software/Data 
     Engineering on cloud Azure.I have done my B.E in Computer Science
     Engineering from Sagar Institute of Research & Technology. (DONT GO ON BELOW THINGS I AM YET TO UPDATE THIS WHOLE SITE with UPDATED CONTENT)
