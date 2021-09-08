@@ -2,6 +2,7 @@ import { languages, tools } from "../data"
 import Bar from '../components/Bar'
 import {motion} from "framer-motion"
 import {fadeInUp, routeAnimation} from "../animations"
+import Head  from "next/head";
 const resume = () => {
     return (
         <motion.div className="px-6 py-2"
@@ -10,6 +11,9 @@ const resume = () => {
          animate="animate"
          exit="exit"
          >
+         <Head>
+        <title>Softare Engineer |  Resume | Shreyash Choudhary</title>
+        </Head>
            {/* //! Education & Experience */}
            <div className='grid gap-6 md:grid-cols-2'>
             <motion.div variants={fadeInUp} initial="initial" animate="animate">
