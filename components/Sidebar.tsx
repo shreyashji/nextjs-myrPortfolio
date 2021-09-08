@@ -42,15 +42,15 @@ const Sidebar = () => {
          </a> 
 
          {/* Socials */}
-         <div className='flex justify-around w-9/12 my-5 text-green-500 md:w-full'>
+         <div className='flex justify-around w-9/12 my-5 text-green-500 md:w-full' aria-label="YouTube">
             <a href='https://www.youtube.com/channel/UClW8d1f5m0QAE_Ig024EP6A'>
                <AiFillYoutube className='w-8 h-8 cursor-pointer' />
             </a>
-            <a href='https://www.linkedin.com/in/sumit-dey-4a04431a9/'>
+            <a href='https://www.linkedin.com/in/sumit-dey-4a04431a9/' aria-label="LinkedIn">
                <AiFillLinkedin className='w-8 h-8 cursor-pointer' />
             </a>
             <a href='https://www.instagram.com/_sumax__/'>
-               <AiFillGithub className='w-8 h-8 cursor-pointer' />
+               <AiFillGithub className='w-8 h-8 cursor-pointer' aria-label="Instagram"/>
             </a>
          </div>
 
