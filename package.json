@@ -1,0 +1,30 @@
+{
+  "name": "fportx",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "framer-motion": "^4.1.17",
+    "next": "11.1.2",
+    "next-themes": "^0.0.15",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.10",
+    "@types/react": "^17.0.20",
+    "autoprefixer": "^10.3.4",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "postcss": "^8.3.6",
+    "postcss-load-config": "^3.1.0",
+    "tailwindcss": "^2.2.9",
+    "typescript": "^4.4.2"
+  }
+}
