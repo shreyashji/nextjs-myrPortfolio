@@ -5,6 +5,7 @@ import { projects as projectsData } from "../data";
 import { Category } from "../type";
 import {motion} from "framer-motion"
 import { fadeInUp,routeAnimation,stagger } from "../animations";
+import Head  from "next/head";
 
 export const Projects = () => {
 const [projects, setProjects] = useState(projectsData);
@@ -30,8 +31,10 @@ const handlerFilterCategory = (category: Category | "all") => {
         variants={routeAnimation} 
         initial="initial"
         animate="animate"
-        exit="exit"
-        >
+        exit="exit">
+        <Head>
+        <title>Softare Engineer |  Projects | Shreyash Choudhary</title>
+        </Head>
             <ProjectsNavbar
         handlerFilterCategory={handlerFilterCategory}
         active={active}
